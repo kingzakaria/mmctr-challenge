@@ -221,3 +221,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- MM-CTR project ---
+# Dataset: huge, never commit it (keep the folder itself via .gitkeep)
+data/*
+!data/.gitkeep
+
+# Generated submission files
+submissions/*
+!submissions/.gitkeep
+
+# Training outputs
+checkpoints/
+logs/
+
+# Large data/model files
+*.parquet
+*.h5
+*.pt
+*.pth
+*.zip
